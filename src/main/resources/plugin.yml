@@ -1,0 +1,22 @@
+name: LegendaryPath
+version: '${project.version}'
+main: com.sevent.LegendaryPath
+api-version: '1.21'
+commands:
+  laoba:
+    description: 呼出老八.
+    usage: /laoba
+    permission: lp.laoba
+  lp:
+    description: 打开某个世界的黑界
+    usage: /lp <switch> <world>
+    permission: lp.admin
+  identify:
+    description: 鉴定宝物.
+    usage: /identify
+    permission: lp.identify
+  quench:
+    description: 淬炼装备.
+    usage: /quenching
+    permission: lp.quench
+softdepend: [Multiverse-Core] # 需要在多世界插件后执行加载RPG世界,否则会出现空指针异常
