@@ -17,6 +17,6 @@ commands:
     permission: lp.identify
   quench:
     description: 淬炼装备.
-    usage: /quenching
+    usage: /quench
     permission: lp.quench
 softdepend: [Multiverse-Core] # 需要在多世界插件后执行加载RPG世界,否则会出现空指针异常
